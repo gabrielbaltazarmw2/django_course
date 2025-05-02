@@ -3,3 +3,6 @@ def alguma_coisa():
     name = 'João'
     return 42
 
+teste = 'salvamento automático'
+
+teste = 5
