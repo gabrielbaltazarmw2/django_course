@@ -3,8 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def my_response(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
-
 def home(request):
-    return render(request, 'recipes/home.html')
+    return render(request, 'recipes/pages/home.html', context={
+        'name': 'Gabriel',
+    })
